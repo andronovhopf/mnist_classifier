@@ -1,0 +1,4 @@
+['remote "mypublicremote"']
+url = https://remote.dvc.org/mnist
+[core]
+remote = mypublicremote
