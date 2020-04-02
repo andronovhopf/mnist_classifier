@@ -61,6 +61,5 @@ for i in range(0,cfm.shape[0]):
 
 
 # Write to file
-
 with open(os.path.join(dirname, '../metrics/eval.json'), 'w') as outfile:
     json.dump({ "accuracy" : pred[1].item() }, outfile)
