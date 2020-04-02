@@ -1,4 +1,5 @@
-['remote "mypublicremote"']
-url = https://remote.dvc.org/mnist
-[core]
-remote = mypublicremote
+
+['remote "mygdrive"']
+url = gdrive://1MmIab-Gt0A2z8rG4zMF-cbaM2h9N_Q6h
+gdrive_client_id = 357306548743-tsb9uitlflm8b999oedlpij6n2f2pe0t.apps.googleusercontent.com
+gdrive_client_secret = 357306548743-tsb9uitlflm8b999oedlpij6n2f2pe0t.apps.googleusercontent.com
