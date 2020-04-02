@@ -4,11 +4,11 @@ deps:
 - path: data/mnist_test.csv
 - path: models
 outs:
-- path: metrics/eval.json
-  cache: false
-  metric: true
-  persist: false
 - path: metrics/eval.jsonl
+  cache: true
+  metric: false
+  persist: false
+- path: metrics/eval.json
   cache: false
   metric: true
   persist: false
