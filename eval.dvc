@@ -5,16 +5,16 @@ deps:
 - path: data/mnist_test.csv
   md5: c807df8d6d804ab2647fc15c3d40f543
 - path: models
-  md5: cd69018443e5cfe0afc8272db9a792bc.dir
+  md5: 590c339602a7c446d1c5514fb82549f8.dir
 outs:
 - path: metrics/confusions.jsonl
   cache: true
   metric: false
   persist: false
-  md5: 5e095ce7a225f7a5c70749b51982f701
+  md5: 72b773aa69077c787f4b957488cdec6d
 - path: metrics/eval.json
   cache: false
   metric: true
   persist: false
-  md5: 2bb6a858ceaac7a2f7ef19de55ba73b9
-md5: cbe9805f9c032198f4d4a9ad5b7e7d64
+  md5: a20ffc3c238f16a8b2b796cefd8e5516
+md5: dacb23bfa987f98f7987b3e9a1400502
