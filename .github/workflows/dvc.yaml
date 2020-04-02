@@ -16,5 +16,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           repro_targets: eval.dvc
         run: |
-          pip install -r requirements.txt
+          pip3 install -r requirements.txt
           dvc_action_run
