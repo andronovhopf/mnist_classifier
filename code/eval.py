@@ -57,7 +57,7 @@ for i in range(0,cfm.shape[0]):
             'prediction':str(j),
             'count':int(cfm[i,j]),
         }
-        dump_jsonl([cell_data], os.path.join(dirname, '../metrics/eval.jsonl'), append=True)
+        dump_jsonl([cell_data], os.path.join(dirname, '../metrics/confusions.jsonl'), append=True)
 
 
 # Write to file
