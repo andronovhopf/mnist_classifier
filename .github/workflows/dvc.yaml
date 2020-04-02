@@ -12,7 +12,7 @@ jobs:
       
       - name: dvc_action_run
         env:
-          GDRIVE_USER_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
+          GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           repro_targets: eval.dvc
         run: |
