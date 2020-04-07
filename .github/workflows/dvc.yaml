@@ -14,7 +14,7 @@ jobs:
         env:
           GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          repro_targets: eval.dvc
+          repro_targets: <<TARGET HERE>>
         run: |
-          pip3 install -r requirements.txt
-          dvc_action_run
+          << COMMANDS HERE>>
+
