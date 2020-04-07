@@ -17,4 +17,5 @@ jobs:
           repro_targets: <<TARGET HERE>>
         run: |
           <<COMMANDS HERE>>
+          dvc_action_run
 
