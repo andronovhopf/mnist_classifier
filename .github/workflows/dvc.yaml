@@ -12,9 +12,11 @@ jobs:
       
       - name: dvc_action_run
         env:
-          GDRIVE_CREDENTIALS_DATA: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          repro_targets: eval.dvc
+          repro_targets: train.dvc
         run: |
-          pip3 install -r requirements.txt
+          pip install -r requirements.txt
           dvc_action_run
+
