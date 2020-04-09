@@ -58,4 +58,4 @@ with tf.Session() as session:
 
     with open(os.path.join(dirname, '../metrics/train.json'), 'w') as outfile:
         json.dump({ 
-            "accuracy": acc_out}, outfile)
+            "accuracy": str(acc_out)}, outfile)
