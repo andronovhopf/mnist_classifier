@@ -58,7 +58,4 @@ with tf.Session() as session:
 
     with open(os.path.join(dirname, '../metrics/train.json'), 'w') as outfile:
         json.dump({ 
-            "batch_size": batch_size, 
-            "num_steps": num_steps, 
-            "learning_rate": learning_rate,  
-            "took" : (time.time() - start) / 1000 }, outfile)
+            "accuracy": acc_out.eval(), outfile)
