@@ -1,2 +1,4 @@
 ['remote "myremote"']
 url = s3://dvc-temp/scratch
+[core]
+remote = myremote
